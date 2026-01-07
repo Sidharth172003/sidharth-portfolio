@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidharth P P | Embedded & ECE Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #e5e7eb, #ffffff);
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            color: #334155;
+        }
+        nav {
+            background-color: #f1f5f9;
+            padding: 0.75rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #2563eb;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 3rem 1rem;
+        }
+        h2 {
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #1e3a8a;
+        }
+        .card {
+            background-color: #f8fafc;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #1d4ed8;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        footer {
+            background-color: #f1f5f9;
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.9rem;
+            color: #475569;
+        }
+        .highlight {
+            color: #2563eb;
+            font-weight: bold;
+        }
+        a {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sidharth P P</h1>
+    <p>Electronics & Communication Engineer | Embedded Systems</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#research">Academic Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am an Electronics and Communication Engineering graduate with hands-on experience in
+            <span class="highlight">embedded systems programming</span>, communication protocols,
+            and low-level software development. I have completed industry-aligned training in embedded systems
+            and worked on real-world projects involving CAN communication, microcontroller peripherals, and
+            command-line applications.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <ul>
+            <li><strong>Programming:</strong> Advanced C, C++, Shell Scripting</li>
+            <li><strong>Data Structures:</strong> Linked Lists, Hash Tables, Algorithms</li>
+            <li><strong>Embedded Systems:</strong> GPIO, Timers, Counters, Interrupts, LCD Interfacing</li>
+            <li><strong>Protocols:</strong> UART, SPI, I2C, CAN</li>
+            <li><strong>Tools:</strong> MPLAB, MATLAB, CST Studio Suite</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Industry Projects</h2>
+
+    <div class="card">
+        <h3>CAN-Based Automotive Node Communication</h3>
+        <p>
+            Implemented CAN communication between two PIC-based nodes simulating automotive parameters such as
+            engine temperature and vehicle speed, displayed on LCD modules.
+        </p>
+        <ul>
+            <li>Implemented CAN framing, arbitration, and error handling</li>
+            <li>Debugged baud rate mismatches and synchronization issues</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Inverted Search Engine</h3>
+        <p>
+            Designed an inverted index using linked lists and hash tables to enable fast keyword-based document search.
+        </p>
+        <ul>
+            <li>Improved search efficiency compared to linear scanning</li>
+            <li>Modularized a large C application using Makefiles</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Arbitrary Precision Calculator</h3>
+        <p>
+            Developed a command-line calculator capable of performing arithmetic on numbers beyond standard
+            data-type limits using doubly linked lists.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Image Steganography (LSB)</h3>
+        <p>
+            Built an image steganography system to securely embed and extract text data using LSB techniques
+            without degrading image quality.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>MP3 Tag Reader & Address Book</h3>
+        <p>
+            Developed command-line utilities for MP3 metadata editing and persistent address book management
+            using file handling in C.
+        </p>
+    </div>
+</section>
+
+<section id="research">
+    <h2>Academic & Research Work</h2>
+
+    <div class="card">
+        <h3>Breast Cancer Detection Using UWB Vivaldi Antenna</h3>
+        <p>
+            Designed a nine-element UWB Vivaldi antenna array and analyzed S-parameters to reconstruct breast images
+            using MATLAB, focusing on bandwidth, resolution, and reduced mutual coupling.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>PC-to-PC Communication Using LiFi</h3>
+        <p>
+            Implemented visible-light-based data communication between two PCs using Python-based modulation and
+            photodiode-based detection, addressing noise and ambient light challenges.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p><strong>Email:</strong> sidharthtzk10@gmail.com</p>
+        <p><strong>Phone:</strong> +91 6282692001</p>
+        <p><strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/sidharth-p-p-176743377" target="_blank">
+                linkedin.com/in/sidharth-p-p-176743377
+            </a>
+        </p>
+        <p>Open to opportunities in embedded systems roles.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sidharth P P | Portfolio Website</p>
+</footer>
+
+</body>
+</html>
